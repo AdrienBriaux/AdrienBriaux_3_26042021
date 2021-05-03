@@ -5,4 +5,7 @@
   src: url("shrikhand-regular-webfont.eot?#iefix") format("embedded-opentype"), url("shrikhand-regular-webfont.woff2") format("woff2"), url("shrikhand-regular-webfont.woff") format("woff"), url("shrikhand-regular-webfont.ttf") format("truetype"), url("shrikhand-regular-webfont.svg#shrikhandregular") format("svg");
   font-weight: normal;
   font-style: normal;
-}/*# sourceMappingURL=sass.css.map */
+}
+.explore__btn {
+  background: linear-gradient(#9356DC, #FF79DA);
+}/*# sourceMappingURL=main.css.map */
