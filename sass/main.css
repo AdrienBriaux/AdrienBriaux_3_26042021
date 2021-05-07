@@ -34,7 +34,8 @@ h1,
 h2,
 h3,
 p,
-li, input {
+li,
+input {
   font-family: "Roboto";
 }
 
@@ -42,17 +43,38 @@ h4 {
   font-family: "shrikhand";
 }
 
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .restaurant-prev__image img {
   width: 100%;
 }
 
+.explore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.explore .explore__tittle,
+.explore .explore__info,
+.explore .explore__btn {
+  text-align: center;
+}
+
 .explore__btn {
-  background: linear-gradient(45deg, #9356DC, #FF79DA);
+  background: linear-gradient(130deg, #9356DC, #FF79DA);
   border-radius: 90px;
   color: white;
-  padding: 12px;
+  padding: 18px;
   border: none;
-  font-size: 12px;
+  width: 75%;
+  font-size: 16px;
 }
 
 .location {

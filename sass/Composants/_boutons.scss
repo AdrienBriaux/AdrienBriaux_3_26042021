@@ -1,8 +1,9 @@
 .explore__btn {
-    background: linear-gradient(45deg, $color-primaire, $color-secondaire);
+    background   : linear-gradient(130deg, $color-primaire, $color-secondaire);
     border-radius: 90px;
     color        : white;
-    padding      : 12px;
+    padding      : 18px;
     border       : none;
-    font-size: 12px;
+    width        : 75%;
+    font-size    : 16px;
 }
