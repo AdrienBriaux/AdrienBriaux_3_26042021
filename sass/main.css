@@ -16,11 +16,16 @@ body {
   margin: 0;
 }
 
+.header-master {
+  display: flex;
+  justify-content: center;
+}
+
 .header__logo {
   width: 50%;
 }
 
-.restaurant-prev {
+.restaurant-prev__grid {
   display: grid;
   grid-template-columns: 374px;
 }
@@ -29,12 +34,16 @@ h1,
 h2,
 h3,
 p,
-li {
+li, input {
   font-family: "Roboto";
 }
 
 h4 {
   font-family: "shrikhand";
+}
+
+.restaurant-prev__image img {
+  width: 100%;
 }
 
 .explore__btn {
@@ -44,4 +53,13 @@ h4 {
   padding: 12px;
   border: none;
   font-size: 12px;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+}
+.location input {
+  border: none;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
