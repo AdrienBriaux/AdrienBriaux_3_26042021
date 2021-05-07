@@ -1,6 +1,15 @@
 @import "./Utils/_variables";
-//@import "./Base/polices";
+
+@import "./Base/polices";
+@import "./Base/block_page";
+@import "./Base/header";
+@import "./Base/grid";
+@import "./Base/text";
+
 @import "./Composants/_boutons";
-//@import "./Layout/layout";
-//@import "./Pages/pages";
-//@import "./Themes/themes";
+
+@import "./Layout/form";
+
+@import "./Pages/pages";
+
+@import "./Themes/themes";
