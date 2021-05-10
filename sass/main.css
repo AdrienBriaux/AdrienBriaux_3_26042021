@@ -68,6 +68,18 @@ a {
   text-align: center;
 }
 
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  background-color: #353535;
+}
+.footer-links .footer-links__tittle, .footer-links .footer-links__link {
+  color: white;
+}
+.footer-links .footer-links__link {
+  margin-bottom: 8px;
+}
+
 .explore__btn {
   background: linear-gradient(130deg, #9356DC, #FF79DA);
   color: white;
@@ -88,15 +100,20 @@ a {
 }
 
 .restaurant-prev__card {
-  box-shadow: 1px 1px 1px 1px;
-  background-color: red;
+  box-shadow: 2px 2px 2px #ededed;
 }
 
 li {
-  border-radius: 90px;
+  border-radius: 20px;
   padding: 24px;
   justify-content: space-between;
-  box-shadow: 2px 2px 2px 2px #ededed;
+  box-shadow: 2px 2px 2px #ededed;
+  background-color: #f9f9f9;
+}
+li span {
+  padding: 5px 10px;
+  background-color: #9356DC;
+  border-radius: 90px;
 }
 
 .nav__link div {

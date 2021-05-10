@@ -1,8 +1,14 @@
     li {
-        border-radius: 90px;
+        border-radius: 20px;
         padding         : 24px;
         justify-content : space-between;
-        box-shadow: 2px 2px 2px 2px #ededed;
+        @include box-shadow;
+        background-color: $color-box;
+        span {
+            padding: 5px 10px;
+            background-color: #9356DC;
+            border-radius: 90px;
+        }
     }
 
     .nav__link div{
