@@ -1,17 +1,19 @@
 @import "./Utils/_variables";
+@import "./Utils/mixins";
 
-@import "./Base/polices";
+@import "./Base/_polices";
 @import "./Base/block_page";
 @import "./Base/header";
-@import "./Base/grid";
+@import "./Base/_grid";
 @import "./Base/text";
-@import "./Base/images";
-@import "./Base/explore";
+@import "./Base/_images";
+@import "./Base/_explore";
 
-@import "./Composants/_boutons";
+@import "./Composants/boutons";
 
 @import "./Layout/form";
+@import "./Layout/_cards";
 
-@import "./Pages/pages";
+@import "./Pages/_pages";
 
 @import "./Themes/themes";

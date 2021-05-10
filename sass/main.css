@@ -28,6 +28,7 @@ body {
 .restaurant-prev__grid {
   display: grid;
   grid-template-columns: 374px;
+  grid-gap: 30px;
 }
 
 h1,
@@ -69,12 +70,12 @@ a {
 
 .explore__btn {
   background: linear-gradient(130deg, #9356DC, #FF79DA);
-  border-radius: 90px;
   color: white;
   padding: 18px;
   border: none;
   width: 75%;
   font-size: 16px;
+  border-radius: 90px;
 }
 
 .location {
@@ -84,4 +85,20 @@ a {
 .location input {
   border: none;
   text-align: center;
+}
+
+.restaurant-prev__card {
+  box-shadow: 1px 1px 1px 1px;
+  background-color: red;
+}
+
+li {
+  border-radius: 90px;
+  padding: 24px;
+  justify-content: space-between;
+  box-shadow: 2px 2px 2px 2px #ededed;
+}
+
+.nav__link div {
+  margin-bottom: 30px;
 }/*# sourceMappingURL=main.css.map */
