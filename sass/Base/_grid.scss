@@ -1,5 +1,10 @@
-.restaurant-prev__grid{
-    display: grid;
+.restaurant-prev__grid {
+    display              : grid;
     grid-template-columns: 339px;
-    grid-gap: 30px;
+    grid-gap             : 30px;
+}
+
+.restaurant-prev {
+    background-color: #F6F6F6;
+    padding         : 0 18px;
 }

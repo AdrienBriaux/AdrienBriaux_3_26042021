@@ -8,7 +8,6 @@
 }
 #block_page {
   max-width: 375px;
-  padding: 18px;
   margin: auto auto;
 }
 
@@ -29,6 +28,11 @@ body {
   display: grid;
   grid-template-columns: 339px;
   grid-gap: 30px;
+}
+
+.restaurant-prev {
+  background-color: #F6F6F6;
+  padding: 0 18px;
 }
 
 h1,
@@ -65,6 +69,8 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #F6F6F6;
+  padding: 0 18px;
 }
 .explore .explore__tittle,
 .explore .explore__info,
@@ -72,12 +78,17 @@ a {
   text-align: center;
 }
 
+footer {
+  padding: 0 18px;
+  background-color: #353535;
+}
+
 .footer-links {
   display: flex;
   flex-direction: column;
-  background-color: #353535;
 }
-.footer-links .footer-links__tittle, .footer-links .footer-links__link {
+.footer-links .footer-links__tittle,
+.footer-links .footer-links__link {
   color: white;
 }
 .footer-links .footer-links__link {
@@ -113,7 +124,7 @@ li {
   padding: 24px 24px 24px 0px;
   justify-content: space-between;
   box-shadow: 2px 2px 2px #ededed;
-  background-color: #f9f9f9;
+  background-color: #F6F6F6;
   display: flex;
   align-items: center;
 }
@@ -125,4 +136,8 @@ li span {
 
 .nav__link div {
   margin-bottom: 30px;
+}
+
+nav {
+  padding: 0 18px;
 }/*# sourceMappingURL=main.css.map */

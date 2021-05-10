@@ -1,11 +1,18 @@
-.footer-links{
-    display: flex;
-    flex-direction: column;
+footer {
+    padding         : 0 18px;
     background-color: #353535;
-    .footer-links__tittle, .footer-links__link{
+}
+
+.footer-links {
+    display       : flex;
+    flex-direction: column;
+
+    .footer-links__tittle,
+    .footer-links__link {
         color: white;
     }
-    .footer-links__link{
+
+    .footer-links__link {
         margin-bottom: 8px;
     }
 }
