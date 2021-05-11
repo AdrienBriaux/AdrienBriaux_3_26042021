@@ -139,7 +139,7 @@ footer {
 }
 
 .restaurant-prev__card {
-  box-shadow: 2px 2px 2px #ededed;
+  box-shadow: 5px 5px 15px 1px #c3c3c3;
   border-radius: 20px;
 }
 
@@ -147,7 +147,7 @@ li {
   border-radius: 20px;
   padding: 20px 24px 20px 0px;
   justify-content: space-between;
-  box-shadow: 2px 2px 2px #ededed;
+  box-shadow: 5px 5px 15px 1px #c3c3c3;
   background-color: #F6F6F6;
   display: flex;
   align-items: center;
