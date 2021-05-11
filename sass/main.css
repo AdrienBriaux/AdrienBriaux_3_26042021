@@ -136,12 +136,31 @@ footer {
   height: 50px;
   align-items: center;
   background-color: #EAEAEA;
-  box-shadow: 1px 1px 1px 1px;
 }
-.location input {
+.location__form {
+  width: 100%;
+}
+.location__field {
   border: none;
   text-align: center;
   background-color: #EAEAEA;
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  outline: none;
+}
+
+input::-moz-placeholder {
+  color: black;
+}
+
+input:-ms-input-placeholder {
+  color: black;
+}
+
+input::placeholder {
+  color: black;
 }
 
 .restaurant-prev__card {
