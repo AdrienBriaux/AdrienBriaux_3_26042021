@@ -7,6 +7,12 @@
         display         : flex;
         align-items     : center;
 
+        &:hover {
+            transition      : background-color 400ms;
+            transform       : background-color;
+            background-color: lighten($color-primaire, 35);
+        }
+
         span {
             padding         : 5px 10px;
             background-color: #9356DC;

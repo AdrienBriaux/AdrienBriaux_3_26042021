@@ -56,10 +56,14 @@ input {
 
 h4 {
   font-family: "shrikhand";
+  font-weight: normal;
+  font-size: 18px;
 }
 
 li {
   list-style: none;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 a {
@@ -99,7 +103,7 @@ footer {
 }
 .footer-links .footer-links__tittle,
 .footer-links .footer-links__link {
-  color: white;
+  color: #E3E3E3;
 }
 .footer-links .footer-links__link {
   margin-bottom: 8px;
@@ -147,6 +151,11 @@ li {
   background-color: #F6F6F6;
   display: flex;
   align-items: center;
+}
+li:hover {
+  transition: background-color 400ms;
+  transform: background-color;
+  background-color: #f2eafb;
 }
 li span {
   padding: 5px 10px;
