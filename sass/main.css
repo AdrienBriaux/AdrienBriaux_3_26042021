@@ -30,6 +30,7 @@ body {
 .header-master {
   display: flex;
   justify-content: center;
+  padding: 25px 0 15px 0;
 }
 
 .header__logo {
@@ -82,7 +83,7 @@ a {
   flex-direction: column;
   align-items: center;
   background-color: #F6F6F6;
-  padding: 0 18px;
+  padding: 20px 18px 50px 18px;
 }
 .explore .explore__tittle,
 .explore .explore__info,
@@ -110,20 +111,25 @@ footer {
 .explore__btn {
   background: linear-gradient(130deg, #9356DC, #FF79DA);
   color: white;
-  padding: 18px;
   border: none;
-  width: 75%;
-  font-size: 16px;
+  font-size: 15px;
+  padding: 15px 20px;
   border-radius: 90px;
+  font-family: "Roboto";
 }
 
 .location {
   display: flex;
   justify-content: center;
+  height: 50px;
+  align-items: center;
+  background-color: #EAEAEA;
+  box-shadow: 1px 1px 1px 1px;
 }
 .location input {
   border: none;
   text-align: center;
+  background-color: #EAEAEA;
 }
 
 .restaurant-prev__card {
@@ -144,6 +150,7 @@ li span {
   padding: 5px 10px;
   background-color: #9356DC;
   border-radius: 90px;
+  color: white;
 }
 
 .nav__link div {
