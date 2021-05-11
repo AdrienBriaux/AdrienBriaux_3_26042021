@@ -1,3 +1,7 @@
 @mixin box-shadow {
-    box-shadow:  5px 5px 15px 1px darken($color-box, 20);
+    box-shadow:  5px 5px 15px 1px darken($color-box, 15);
+}
+
+@mixin hover {
+    background   : linear-gradient(130deg, $color-primaire, $color-secondaire);
 }
