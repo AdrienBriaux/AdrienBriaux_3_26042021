@@ -1,6 +1,6 @@
     li {
         border-radius  : 20px;
-        padding        : 24px 24px 24px 0px;
+        padding        : 20px 24px 20px 0px;
         justify-content: space-between;
         @include box-shadow;
         background-color: $color-box;
@@ -16,9 +16,13 @@
     }
 
     .nav__link div {
-        margin-bottom: 30px;
+        margin-bottom: 32px;
     }
 
-    nav {
-        padding: 0 18px;
+    .nav {
+        padding: 30px 18px 32px 18px;
+
+        h2 {
+            margin-bottom: 30px;
+        }
     }

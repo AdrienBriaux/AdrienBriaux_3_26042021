@@ -40,12 +40,15 @@ body {
 .restaurant-prev__grid {
   display: grid;
   grid-template-columns: 339px;
-  grid-gap: 30px;
+  grid-gap: 20px;
 }
 
 .restaurant-prev {
   background-color: #F6F6F6;
-  padding: 0 18px;
+  padding: 35px 18px 60px 18px;
+}
+.restaurant-prev h2 {
+  margin-bottom: auto;
 }
 
 h1,
@@ -106,6 +109,7 @@ footer {
 }
 .footer-links .footer-links__link {
   margin-bottom: 8px;
+  font-family: "Roboto";
 }
 
 .explore__btn {
@@ -139,7 +143,7 @@ footer {
 
 li {
   border-radius: 20px;
-  padding: 24px 24px 24px 0px;
+  padding: 20px 24px 20px 0px;
   justify-content: space-between;
   box-shadow: 2px 2px 2px #ededed;
   background-color: #F6F6F6;
@@ -154,9 +158,12 @@ li span {
 }
 
 .nav__link div {
-  margin-bottom: 30px;
+  margin-bottom: 32px;
 }
 
-nav {
-  padding: 0 18px;
+.nav {
+  padding: 30px 18px 32px 18px;
+}
+.nav h2 {
+  margin-bottom: 30px;
 }/*# sourceMappingURL=main.css.map */
