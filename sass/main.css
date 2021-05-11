@@ -158,10 +158,16 @@ li {
   display: flex;
   align-items: center;
 }
+li i {
+  font-size: 19px;
+}
 li:hover {
   transition: background-color 400ms;
   transform: background-color;
   background-color: #f2eafb;
+}
+li:hover i {
+  color: #9356DC;
 }
 li span {
   padding: 5px 10px;

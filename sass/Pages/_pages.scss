@@ -6,11 +6,17 @@
         background-color: $color-box;
         display         : flex;
         align-items     : center;
+        i {
+            font-size: 19px;
+        }
 
         &:hover {
             transition      : background-color 400ms;
             transform       : background-color;
             background-color: lighten($color-primaire, 35);
+            & i {
+                color: $color-primaire;
+            }
         }
 
         span {
