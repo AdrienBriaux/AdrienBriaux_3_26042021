@@ -1,13 +1,14 @@
-.location{
-    display: flex;
-    justify-content: center;
-    height: 50px;
-    align-items: center;
+.location {
+    display         : flex;
+    justify-content : center;
+    height          : 50px;
+    align-items     : center;
     background-color: #EAEAEA;
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow      : 1px 1px 1px 1px;
+
     input {
-        border: none;
-        text-align: center;
+        border          : none;
+        text-align      : center;
         background-color: #EAEAEA;
     }
 }
