@@ -1,30 +1,35 @@
     li {
-        border-radius  : 20px;
-        padding        : 20px 24px 20px 0px;
-        justify-content: space-between;
+        border-radius: 20px;
+        padding      : 20px 24px 20px 0px;
         @include box-shadow;
         background-color: $color-box;
         display         : flex;
         align-items     : center;
+
         i {
+            padding  : 0 20px;
             font-size: 19px;
+            width: 20px;
+            
+        }
+
+        .nav-number {
+            padding         : 5px 10px;
+            background-color: #9356DC;
+            border-radius   : 90px;
+            color           : white;
         }
 
         &:hover {
             transition      : background-color 400ms;
             transform       : background-color;
             background-color: lighten($color-primaire, 35);
+
             & i {
                 color: $color-primaire;
             }
         }
 
-        span {
-            padding         : 5px 10px;
-            background-color: #9356DC;
-            border-radius   : 90px;
-            color           : white;
-        }
     }
 
     .nav__link div {
