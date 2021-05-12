@@ -13,7 +13,7 @@ li i {
 }
 
 #block_page {
-  max-width: 375px;
+  max-width: 1250px;
   margin: auto auto;
 }
 
@@ -33,16 +33,16 @@ body {
 
 .restaurant-prev__grid {
   display: grid;
-  grid-template-columns: 339px;
+  grid-template-columns: auto;
   grid-gap: 20px;
 }
 
 .restaurant-prev {
   background-color: #F6F6F6;
   padding: 35px 18px 60px 18px;
-}
-.restaurant-prev h2 {
-  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1,
@@ -136,12 +136,31 @@ footer {
   height: 50px;
   align-items: center;
   background-color: #EAEAEA;
-  box-shadow: 1px 1px 1px 1px;
 }
-.location input {
+.location__form {
+  width: 100%;
+}
+.location__field {
   border: none;
   text-align: center;
   background-color: #EAEAEA;
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  outline: none;
+}
+
+input::-moz-placeholder {
+  color: black;
+}
+
+input:-ms-input-placeholder {
+  color: black;
+}
+
+input::placeholder {
+  color: black;
 }
 
 .restaurant-prev__card {
@@ -152,14 +171,21 @@ footer {
 li {
   border-radius: 20px;
   padding: 20px 24px 20px 0px;
-  justify-content: space-between;
   box-shadow: 5px 5px 15px 1px #d0d0d0;
   background-color: #F6F6F6;
   display: flex;
   align-items: center;
 }
 li i {
+  padding: 0 20px;
   font-size: 19px;
+  width: 20px;
+}
+li .nav-number {
+  padding: 5px 10px;
+  background-color: #9356DC;
+  border-radius: 90px;
+  color: white;
 }
 li:hover {
   transition: background-color 400ms;
@@ -168,12 +194,6 @@ li:hover {
 }
 li:hover i {
   color: #9356DC;
-}
-li span {
-  padding: 5px 10px;
-  background-color: #9356DC;
-  border-radius: 90px;
-  color: white;
 }
 
 .nav__link div {
