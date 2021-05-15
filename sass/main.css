@@ -76,6 +76,7 @@ body {
 .menu-grid {
   display: grid;
   grid-gap: 20px;
+  padding: 0 18px;
 }
 
 h1,
@@ -168,7 +169,12 @@ a:hover #footer-icons {
   transition: 300ms;
 }
 
-.restaurant-page__btn {
+.btn-box {
+  justify-content: center;
+  display: flex;
+  padding: 50px 0;
+}
+.btn-box .restaurant-page__btn {
   background: linear-gradient(130deg, #9356DC, #FF79DA);
   color: white;
   border: none;
@@ -177,8 +183,10 @@ a:hover #footer-icons {
   border-radius: 90px;
   font-family: "Roboto";
   box-shadow: 5px 5px 15px 1px #d0d0d0;
+  box-shadow: 5px 5px 15px 1px #d0d0d0;
+  width: 175px;
 }
-.restaurant-page__btn:hover {
+.btn-box .restaurant-page__btn:hover {
   opacity: 90%;
   transform: opacity;
   transition: 300ms;
