@@ -2,3 +2,15 @@
     @include box-shadow;
     border-radius: 20px;
 }
+
+.restaurant-card {
+    background: url('/images/restaurants/mini/Le_délice_des_sens_mini.jpg');
+    height    : 300px;
+    display: flex;
+    flex-direction: column-reverse;
+
+    &__box-info {
+        background-color: white;
+        border-radius: 40px 40px 0 0 ;
+    }
+}

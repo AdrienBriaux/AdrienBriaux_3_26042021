@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 h1 {
@@ -25,6 +26,11 @@ body {
   display: flex;
   justify-content: center;
   padding: 25px 0 15px 0;
+}
+.header-master__link-home {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
 }
 
 .header__logo {
@@ -214,6 +220,17 @@ input::placeholder {
 .restaurant-prev__card {
   box-shadow: 5px 5px 15px 1px #d0d0d0;
   border-radius: 20px;
+}
+
+.restaurant-card {
+  background: url("/images/restaurants/mini/Le_délice_des_sens_mini.jpg");
+  height: 300px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.restaurant-card__box-info {
+  background-color: white;
+  border-radius: 40px 40px 0 0;
 }
 
 li {
