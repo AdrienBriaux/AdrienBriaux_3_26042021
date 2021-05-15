@@ -1,7 +1,41 @@
 @mixin box-shadow {
-    box-shadow:  5px 5px 15px 1px darken($color-box, 15);
+    box-shadow: 5px 5px 15px 1px darken($color-box, 15);
 }
 
 @mixin hover {
+    background: linear-gradient(130deg, $color-primaire, $color-secondaire);
+}
+
+@mixin btn {
     background   : linear-gradient(130deg, $color-primaire, $color-secondaire);
+    color        : white;
+    border       : none;
+    font-size    : 15px;
+    padding      : 15px 20px;
+    border-radius: 90px;
+    font-family  : 'Roboto';
+    @include box-shadow;
+}
+
+@mixin box {
+    border-radius: 20px;
+    padding      : 20px 24px 20px 0px;
+    @include box-shadow;
+}
+
+@mixin grid-box {
+    display              : grid;
+    grid-template-columns: auto auto;
+    grid-template-rows   : auto auto;
+    padding              : 10px 20px;
+}
+
+@mixin check {
+    display        : flex;
+    grid-column    : span 2;
+    grid-area      : 2;
+    grid-row       : span 2;
+    justify-content: flex-end;
+    align-items    : center;
+    font-size      : 25px;
 }

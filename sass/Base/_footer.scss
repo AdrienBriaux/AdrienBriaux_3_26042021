@@ -8,16 +8,27 @@ footer {
     flex-direction: column;
 
     .footer-links__tittle,
-    .footer-links__link {
-        color: #E3E3E3;
+    .footer-links__link,
+    h4 {
+        color      : #E3E3E3;
+        font-family: 'shrikhand';
+        font-weight: normal;
+        font-size  : 18px;
     }
 
     .footer-links__link {
         margin-bottom: 8px;
         font-family  : 'Roboto';
-        i{
+
+        i {
             margin-right: 10px;
-            font-size: 12px;
+            font-size   : 12px;
+            width       : 20px;
         }
     }
+}
+
+a:hover #footer-icons {
+    transform : rotate(-45deg);
+    transition: transform 200ms;
 }

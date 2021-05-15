@@ -11,6 +11,15 @@
     &:hover {
         opacity: 90%;
         transform: opacity;
-        transition: 350ms;
+        transition: 300ms;
+    }
+}
+
+.restaurant-page__btn{
+    @include btn;
+    &:hover {
+        opacity: 90%;
+        transform: opacity;
+        transition: 300ms;
     }
 }
