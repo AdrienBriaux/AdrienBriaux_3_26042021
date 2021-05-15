@@ -71,7 +71,8 @@ h1,
 h2,
 h3,
 p,
-li, h4,
+li,
+h4,
 input {
   font-family: "Roboto";
 }
