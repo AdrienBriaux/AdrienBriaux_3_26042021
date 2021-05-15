@@ -67,6 +67,11 @@ body {
   align-items: center;
 }
 
+.menu-grid {
+  display: grid;
+  grid-gap: 20px;
+}
+
 h1,
 h2,
 h3,
@@ -252,19 +257,30 @@ li:hover i {
 
 .--box {
   border-radius: 20px;
-  padding: 20px 24px 20px 0px;
   box-shadow: 5px 5px 15px 1px #d0d0d0;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto 50px;
   grid-template-rows: auto auto;
-  padding: 10px 20px;
 }
-.--box --check {
+.--box .check {
   display: flex;
   grid-column: span 2;
   grid-area: 2;
   grid-row: span 2;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+.--box p {
+  grid-area: 2;
+}
+
+.check .check {
+  display: flex;
+  grid-column: span 2;
+  grid-area: 2;
+  grid-row: span 2;
+  justify-content: center;
   align-items: center;
   font-size: 25px;
 }/*# sourceMappingURL=main.css.map */
