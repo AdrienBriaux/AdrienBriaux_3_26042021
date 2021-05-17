@@ -30,9 +30,19 @@
     padding              : 0 0 0 10px;
     grid-row-gap         : 5px;
     justify-content      : space-between;
-    &:hover{
-        .check{
-            display: flex;
+
+    &:hover {
+        .check {
+            display   : flex;
+            transform : scale(1);
+            transition: transform 800ms;
+        }
+    }
+
+    &:not(:hover) {
+        .check {
+            display  : none;
+            transform: scale(0);
         }
     }
 
@@ -41,10 +51,10 @@
     }
 }
 
+
 @mixin check {
 
     .check {
-        display         : flex;
         grid-column     : span 2;
         grid-area       : 2;
         grid-row        : span 2;
@@ -54,9 +64,6 @@
         background-color: #99E2D0;
         border-radius   : 0 15px 15px 0;
         width           : 60px;
-        &:not(:hover){
-            display: none;
-        }
 
         i {
             color    : white;

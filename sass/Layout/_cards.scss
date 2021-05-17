@@ -4,7 +4,7 @@
 }
 
 .restaurant-card {
-    background     : url('/images/restaurants/mini/Le_délice_des_sens_mini.jpg');
+    background     : $img-la_palette_du_gout;
     height         : 300px;
     display        : flex;
     flex-direction : column-reverse;

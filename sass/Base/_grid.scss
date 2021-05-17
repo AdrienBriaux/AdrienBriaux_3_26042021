@@ -39,22 +39,29 @@
 }
 
 .menu-grid {
-    display: grid;
+    display : grid;
     grid-gap: 20px;
-    padding: 0 18px;
-    h3{
-        font-weight: 400;
-        font-size: 15px;
+    padding : 0 18px;
+
+    >span {
         border-bottom: 3px solid #99E2D0;
+        width        : 40px;
+
+        h3 {
+            font-weight: 400;
+            font-size  : 15px;
+        }
     }
+
     h4 {
-        margin: 0;
-        font-size: large;
+        margin     : 0;
+        font-size  : large;
         padding-top: 10px;
     }
-    p{
-        margin: 0;
-        font-size: 15px;
+
+    p {
+        margin        : 0;
+        font-size     : 15px;
         padding-bottom: 10px;
     }
 }
