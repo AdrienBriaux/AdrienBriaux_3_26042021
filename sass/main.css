@@ -25,6 +25,7 @@ body {
 .header-master {
   display: flex;
   padding: 25px 0 15px 0;
+  justify-content: center;
 }
 .header-master__link-home {
   align-items: center;
