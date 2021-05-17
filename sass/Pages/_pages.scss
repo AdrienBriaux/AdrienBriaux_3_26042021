@@ -49,6 +49,49 @@
         @include grid--box;
     }
 
-    .check{
+    .check {
         @include check;
+    }
+
+    .restaurant-page {
+        &__la_note_enchantée {
+            .restaurant-card {
+                background     : url(/images/restaurants/mini/La_note_enchantée_mini.jpg) no-repeat;
+                height         : 290px;
+                display        : flex;
+                flex-direction : column-reverse;
+                background-size: cover;
+            }
+        }
+
+        &__la_palette_du_gout {
+            .restaurant-card {
+                background     : url(/images/restaurants/mini/la_palette_du_gout_mini.jpg) no-repeat;
+                height         : 290px;
+                display        : flex;
+                flex-direction : column-reverse;
+                background-size: cover;
+            }
+
+        }
+
+        &__à_la_française {
+            .restaurant-card {
+                background     : url(/images/restaurants/mini/à_la_française_mini.jpg) no-repeat;
+                height         : 290px;
+                display        : flex;
+                flex-direction : column-reverse;
+                background-size: cover;
+            }
+        }
+
+        &__le_délice_des_sens {
+            .restaurant-card {
+                background     : url(/images/restaurants/mini/Le_délice_des_sens_mini.jpg) no-repeat;
+                height         : 290px;
+                display        : flex;
+                flex-direction : column-reverse;
+                background-size: cover;
+            }
+        }
     }

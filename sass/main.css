@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 h1 {
@@ -248,13 +249,6 @@ input::placeholder {
   border-radius: 20px;
 }
 
-.restaurant-card {
-  background: url(/images/restaurants/mini/la_palette_du_gout_mini.jpg) no-repeat;
-  height: 290px;
-  display: flex;
-  flex-direction: column-reverse;
-  background-size: contain;
-}
 .restaurant-card__box-info {
   background-color: white;
   border-radius: 40px 40px 0 0;
@@ -367,4 +361,33 @@ li:hover i {
 .check .check i {
   color: white;
   font-size: 20px;
+}
+
+.restaurant-page__la_note_enchantée .restaurant-card {
+  background: url(/images/restaurants/mini/La_note_enchantée_mini.jpg) no-repeat;
+  height: 290px;
+  display: flex;
+  flex-direction: column-reverse;
+  background-size: cover;
+}
+.restaurant-page__la_palette_du_gout .restaurant-card {
+  background: url(/images/restaurants/mini/la_palette_du_gout_mini.jpg) no-repeat;
+  height: 290px;
+  display: flex;
+  flex-direction: column-reverse;
+  background-size: cover;
+}
+.restaurant-page__à_la_française .restaurant-card {
+  background: url(/images/restaurants/mini/à_la_française_mini.jpg) no-repeat;
+  height: 290px;
+  display: flex;
+  flex-direction: column-reverse;
+  background-size: cover;
+}
+.restaurant-page__le_délice_des_sens .restaurant-card {
+  background: url(/images/restaurants/mini/Le_délice_des_sens_mini.jpg) no-repeat;
+  height: 290px;
+  display: flex;
+  flex-direction: column-reverse;
+  background-size: cover;
 }/*# sourceMappingURL=main.css.map */

@@ -4,12 +4,6 @@
 }
 
 .restaurant-card {
-    background     : $img-la_palette_du_gout no-repeat;
-    height         : 290px;
-    display        : flex;
-    flex-direction : column-reverse;
-    background-size: contain;
-
     &__box-info {
         background-color: white;
         border-radius   : 40px 40px 0 0;
