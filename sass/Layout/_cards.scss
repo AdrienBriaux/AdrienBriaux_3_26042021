@@ -4,19 +4,22 @@
 }
 
 .restaurant-card {
-    background     : $img-la_palette_du_gout;
-    height         : 300px;
+    background     : $img-la_palette_du_gout no-repeat;
+    height         : 290px;
     display        : flex;
     flex-direction : column-reverse;
-    background-size: cover;
+    background-size: contain;
 
     &__box-info {
         background-color: white;
         border-radius   : 40px 40px 0 0;
         display         : flex;
         align-items     : center;
-        padding         : 0 35px 0 20px;
+        padding         : 30px 35px 0 20px;
         justify-content: space-between;
+        h3 {
+            margin: 0;
+        }
 
         i {
             justify-self: flex-end;
