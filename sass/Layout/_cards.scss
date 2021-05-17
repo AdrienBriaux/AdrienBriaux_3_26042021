@@ -4,13 +4,29 @@
 }
 
 .restaurant-card {
-    background: url('/images/restaurants/mini/Le_délice_des_sens_mini.jpg');
-    height    : 300px;
-    display: flex;
-    flex-direction: column-reverse;
+    background     : url('/images/restaurants/mini/Le_délice_des_sens_mini.jpg');
+    height         : 300px;
+    display        : flex;
+    flex-direction : column-reverse;
+    background-size: cover;
 
     &__box-info {
         background-color: white;
-        border-radius: 40px 40px 0 0 ;
+        border-radius   : 40px 40px 0 0;
+        display         : flex;
+        align-items     : center;
+        padding         : 0 35px 0 20px;
+        justify-content: space-between;
+
+        i {
+            justify-self: flex-end;
+            font-size   : 25px;
+        }
+    }
+
+    &__tittle {
+        font-family: 'shrikhand';
+        font-size  : 28px;
+        font-weight: 200;
     }
 }

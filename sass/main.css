@@ -78,6 +78,21 @@ body {
   grid-gap: 20px;
   padding: 0 18px;
 }
+.menu-grid h3 {
+  font-weight: 400;
+  font-size: 15px;
+  border-bottom: 3px solid #99E2D0;
+}
+.menu-grid h4 {
+  margin: 0;
+  font-size: large;
+  padding-top: 10px;
+}
+.menu-grid p {
+  margin: 0;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
 
 h1,
 h2,
@@ -235,10 +250,24 @@ input::placeholder {
   height: 300px;
   display: flex;
   flex-direction: column-reverse;
+  background-size: cover;
 }
 .restaurant-card__box-info {
   background-color: white;
   border-radius: 40px 40px 0 0;
+  display: flex;
+  align-items: center;
+  padding: 0 35px 0 20px;
+  justify-content: space-between;
+}
+.restaurant-card__box-info i {
+  justify-self: flex-end;
+  font-size: 25px;
+}
+.restaurant-card__tittle {
+  font-family: "shrikhand";
+  font-size: 28px;
+  font-weight: 200;
 }
 
 li {
@@ -281,11 +310,14 @@ li:hover i {
 }
 
 .--box {
-  border-radius: 20px;
+  border-radius: 15px;
   box-shadow: 5px 5px 15px 1px #d0d0d0;
   display: grid;
-  grid-template-columns: auto 50px;
+  grid-template-columns: auto auto;
   grid-template-rows: auto auto;
+  padding: 0 0 0 10px;
+  grid-row-gap: 5px;
+  justify-content: space-between;
 }
 .--box .check {
   display: flex;
@@ -295,6 +327,19 @@ li:hover i {
   justify-content: center;
   align-items: center;
   font-size: 25px;
+  background-color: #99E2D0;
+  border-radius: 0 15px 15px 0;
+  width: 60px;
+}
+.--box .check:not(:hover) {
+  display: none;
+}
+.--box .check i {
+  color: white;
+  font-size: 20px;
+}
+.--box:hover .check {
+  display: flex;
 }
 .--box p {
   grid-area: 2;
@@ -308,4 +353,14 @@ li:hover i {
   justify-content: center;
   align-items: center;
   font-size: 25px;
+  background-color: #99E2D0;
+  border-radius: 0 15px 15px 0;
+  width: 60px;
+}
+.check .check:not(:hover) {
+  display: none;
+}
+.check .check i {
+  color: white;
+  font-size: 20px;
 }/*# sourceMappingURL=main.css.map */

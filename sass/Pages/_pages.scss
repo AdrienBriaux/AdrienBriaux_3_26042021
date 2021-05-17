@@ -45,8 +45,8 @@
     }
 
     .--box {
-        @include box;
-        @include grid-box;
+        @include box-menu;
+        @include grid--box;
     }
 
     .check{
