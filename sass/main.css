@@ -57,11 +57,17 @@ body {
   align-items: center;
   font-size: 25px;
 }
-.restaurant-prev__grid .restaurant-prev__box .restaurant-prev__info {
+.restaurant-prev__grid .restaurant-prev__box-icon #heart-empty:hover {
+  color: #9356DC;
+  font-weight: bold;
+  width: 100%;
+  transition: color 300ms;
+}
+.restaurant-prev__grid .restaurant-prev__info {
   grid-area: 2;
 }
-.restaurant-prev__grid .restaurant-prev__box h3,
-.restaurant-prev__grid .restaurant-prev__box p {
+.restaurant-prev__grid h3,
+.restaurant-prev__grid p {
   margin: 0 0 5px 0;
 }
 
