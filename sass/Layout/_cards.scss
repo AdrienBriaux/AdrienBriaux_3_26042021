@@ -2,3 +2,28 @@
     @include box-shadow;
     border-radius: 20px;
 }
+
+.restaurant-card {
+    &__box-info {
+        background-color: white;
+        border-radius   : 40px 40px 0 0;
+        display         : flex;
+        align-items     : center;
+        padding         : 30px 35px 0 20px;
+        justify-content: space-between;
+        h3 {
+            margin: 0;
+        }
+
+        i {
+            justify-self: flex-end;
+            font-size   : 25px;
+        }
+    }
+
+    &__tittle {
+        font-family: 'shrikhand';
+        font-size  : 28px;
+        font-weight: 200;
+    }
+}

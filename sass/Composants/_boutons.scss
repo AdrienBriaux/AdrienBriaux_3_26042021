@@ -9,17 +9,26 @@
     @include box-shadow;
 
     &:hover {
-        opacity: 90%;
-        transform: opacity;
+        opacity   : 90%;
+        transform : opacity;
         transition: 300ms;
     }
 }
 
-.restaurant-page__btn{
-    @include btn;
-    &:hover {
-        opacity: 90%;
-        transform: opacity;
-        transition: 300ms;
+.btn-box {
+    justify-content: center;
+    display: flex;
+    padding: 50px 0;
+
+    .restaurant-page__btn {
+        @include btn;
+        @include box-shadow;
+        width: 175px;
+
+        &:hover {
+            opacity   : 90%;
+            transform : opacity;
+            transition: 300ms;
+        }
     }
 }

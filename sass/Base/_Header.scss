@@ -1,9 +1,16 @@
 .header-master {
-    display        : flex;
+    display: flex;
+    padding: 25px 0 15px 0;
     justify-content: center;
-    padding        : 25px 0 15px 0;
-}
 
-.header__logo {
-    width: 50%;
+    &__link-home {
+        align-items: center;
+        display    : flex;
+        font-size  : 18px;
+        margin     : 0 40px 0 20px;
+    }
+
+    .header__logo {
+        width: 170px;
+    }
 }
