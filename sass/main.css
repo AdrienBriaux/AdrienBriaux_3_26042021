@@ -92,14 +92,13 @@ body {
   padding: 0 18px;
 }
 .menu-grid h3 {
-  border-bottom: 3px solid #99E2D0;
   width: 40px;
-}
-.menu-grid h3 span {
+  border-bottom: 3px solid #99E2D0;
   font-weight: 400;
   font-size: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 0;
   margin-top: 35px;
+  padding-bottom: 5px;
 }
 .menu-grid h4 {
   margin: 0;
