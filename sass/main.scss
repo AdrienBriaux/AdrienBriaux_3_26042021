@@ -3,12 +3,12 @@
 
 @import "./Base/_polices";
 @import "./Base/_block_page";
-@import "./Base/header";
+@import "./Base/_header";
 @import "./Base/_grid";
-@import "./Base/text";
-@import "./Base/images";
-@import "./Base/explore";
-@import "./Base/footer";
+@import "./Base/_text";
+@import "./Base/_images";
+@import "./Base/_explore";
+@import "./Base/_footer";
 
 @import "./Composants/_boutons";
 
@@ -17,4 +17,4 @@
 
 @import "./Pages/_pages";
 
-@import "./Themes/themes";
+@import "./Themes/_themes";
