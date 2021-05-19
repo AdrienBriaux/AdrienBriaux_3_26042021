@@ -24,17 +24,22 @@ body {
 
 .header-master {
   display: flex;
-  padding: 25px 0 15px 0;
+  padding: 20px 0 15px 0;
   justify-content: center;
+  height: 28px;
 }
 .header-master__link-home {
   align-items: center;
   display: flex;
   font-size: 18px;
   margin: 0 40px 0 20px;
+  flex-grow: 1;
+  margin-right: 90%;
+  justify-content: center;
 }
 .header-master .header__logo {
-  width: 170px;
+  position: absolute;
+  height: 28px;
 }
 
 .restaurant-prev__grid {
@@ -270,6 +275,11 @@ input::placeholder {
   justify-self: flex-end;
   font-size: 25px;
 }
+.restaurant-card__box-info i:hover {
+  color: #9356DC;
+  font-weight: bold;
+  transition: color 300ms;
+}
 .restaurant-card__tittle {
   font-family: "shrikhand";
   font-size: 28px;
@@ -296,7 +306,7 @@ li .nav-number {
   color: white;
 }
 li:hover {
-  transition: background-color 400ms;
+  transition: background-color 300ms;
   transform: background-color;
   background-color: #f2eafb;
 }

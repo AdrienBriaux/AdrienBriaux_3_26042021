@@ -15,13 +15,13 @@
 
         .nav-number {
             padding         : 5px 10px;
-            background-color: #9356DC;
+            background-color: $color-primaire;
             border-radius   : 90px;
             color           : white;
         }
 
         &:hover {
-            transition      : background-color 400ms;
+            transition      : background-color 300ms;
             transform       : background-color;
             background-color: lighten($color-primaire, 35);
 
