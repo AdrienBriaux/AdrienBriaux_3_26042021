@@ -91,11 +91,11 @@ body {
   grid-gap: 15px;
   padding: 0 18px;
 }
-.menu-grid > span {
+.menu-grid h3 {
   border-bottom: 3px solid #99E2D0;
   width: 40px;
 }
-.menu-grid > span h3 {
+.menu-grid h3 span {
   font-weight: 400;
   font-size: 15px;
   margin-bottom: 5px;
