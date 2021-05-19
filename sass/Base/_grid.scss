@@ -23,6 +23,11 @@
                 font-weight: bold;
                 transition : color 300ms;
             }
+
+            #heart-empty:checked {
+                color      : $color-primaire;
+                font-weight: bold;
+            }
         }
     }
 
