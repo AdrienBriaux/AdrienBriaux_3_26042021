@@ -325,6 +325,9 @@ li:hover i {
 .nav__link div {
   margin-bottom: 32px;
 }
+.nav__link div ul {
+  padding: 0;
+}
 
 .nav {
   padding: 30px 18px 32px 18px;
