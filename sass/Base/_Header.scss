@@ -1,16 +1,21 @@
 .header-master {
-    display: flex;
-    padding: 25px 0 15px 0;
+    display        : flex;
+    padding        : 20px 0 15px 0;
     justify-content: center;
+    height         : 28px;
 
     &__link-home {
         align-items: center;
         display    : flex;
         font-size  : 18px;
         margin     : 0 40px 0 20px;
+        flex-grow  : 1;
+        margin-right: 90%;
+        justify-content: center;
     }
 
     .header__logo {
-        width: 170px;
+        position: absolute;
+        height: 28px;
     }
 }

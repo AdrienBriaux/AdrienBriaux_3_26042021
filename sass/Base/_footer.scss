@@ -19,11 +19,15 @@ footer {
     .footer-links__link {
         margin-bottom: 8px;
         font-family  : 'Roboto';
+        display: flex;
+        align-items: center;
 
         i {
             margin-right: 10px;
             font-size   : 12px;
             width       : 20px;
+            justify-content: center;
+            display: flex;
         }
     }
 }
@@ -31,4 +35,5 @@ footer {
 a:hover #footer-icons {
     transform : rotate(-45deg);
     transition: transform 200ms;
+    
 }
