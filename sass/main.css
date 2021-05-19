@@ -236,11 +236,11 @@ a:hover #footer-icons {
   display: flex;
   justify-content: center;
   height: 50px;
-  align-items: center;
   background-color: #EAEAEA;
 }
 .location__form {
-  width: 100%;
+  display: flex;
+  align-items: center;
 }
 .location__field {
   border: none;
