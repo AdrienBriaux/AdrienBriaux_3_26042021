@@ -324,6 +324,7 @@ li:hover i {
   padding: 0 0 0 10px;
   grid-row-gap: 5px;
   justify-content: space-between;
+  overflow: hidden;
 }
 .--box .check {
   grid-column: span 2;
@@ -335,19 +336,19 @@ li:hover i {
   background-color: #99E2D0;
   border-radius: 0 15px 15px 0;
   width: 60px;
+  display: flex;
 }
 .--box .check i {
   color: white;
   font-size: 20px;
 }
 .--box:hover .check {
-  display: flex;
-  transform: scale(1);
+  transform: translateX(0);
   transition: transform 800ms;
 }
 .--box:not(:hover) .check {
-  display: none;
-  transform: scale(0);
+  transition: transform 800ms;
+  transform: translateX(100%);
 }
 .--box p {
   grid-area: 2;
@@ -363,6 +364,7 @@ li:hover i {
   background-color: #99E2D0;
   border-radius: 0 15px 15px 0;
   width: 60px;
+  display: flex;
 }
 .check .check i {
   color: white;
@@ -370,7 +372,7 @@ li:hover i {
 }
 
 .restaurant-page__la_note_enchantée .restaurant-card {
-  background: url(/images/restaurants/mini/La_note_enchantée_mini.jpg) no-repeat;
+  background: url(/images/restaurants/mini/la_note_enchantée_mini.jpg) no-repeat;
   height: 290px;
   display: flex;
   flex-direction: column-reverse;
@@ -391,7 +393,7 @@ li:hover i {
   background-size: cover;
 }
 .restaurant-page__le_délice_des_sens .restaurant-card {
-  background: url(/images/restaurants/mini/Le_délice_des_sens_mini.jpg) no-repeat;
+  background: url(/images/restaurants/mini/le_délice_des_sens_mini.jpg) no-repeat;
   height: 290px;
   display: flex;
   flex-direction: column-reverse;
