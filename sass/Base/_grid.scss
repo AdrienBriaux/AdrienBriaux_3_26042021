@@ -18,13 +18,13 @@
             align-items    : center;
             font-size      : 25px;
 
-            #heart-empty:hover {
+            .heart-empty:hover {
                 color      : $color-primaire;
                 font-weight: bold;
                 transition : color 300ms;
             }
 
-            #heart-empty:visited {
+            .heart-empty:visited {
                 color      : $color-primaire;
                 font-weight: bold;
             }

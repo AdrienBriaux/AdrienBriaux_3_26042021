@@ -62,12 +62,12 @@ body {
   align-items: center;
   font-size: 25px;
 }
-.restaurant-prev__grid .restaurant-prev__box-icon #heart-empty:hover {
+.restaurant-prev__grid .restaurant-prev__box-icon .heart-empty:hover {
   color: #9356DC;
   font-weight: bold;
   transition: color 300ms;
 }
-.restaurant-prev__grid .restaurant-prev__box-icon #heart-empty:visited {
+.restaurant-prev__grid .restaurant-prev__box-icon .heart-empty:visited {
   color: #9356DC;
   font-weight: bold;
 }
