@@ -374,14 +374,14 @@ li:hover i {
 }
 .--box:hover .check {
   transform: translateX(0);
-  transition: transform 800ms;
+  transition: transform 300ms linear;
 }
 .--box:hover .check i {
-  transform: rotate(720deg);
-  transition: transform 800ms;
+  transform: rotate(360deg);
+  transition: transform 300ms linear;
 }
 .--box:not(:hover) .check {
-  transition: transform 800ms;
+  transition: transform 200ms linear;
   transform: translateX(100%);
 }
 .--box p {
