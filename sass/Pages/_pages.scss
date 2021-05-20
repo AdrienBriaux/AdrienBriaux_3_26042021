@@ -53,6 +53,7 @@
         @include box-menu;
         @include grid--box;
         cursor: pointer;
+        animation:  menu-animation 2s;
     }
 
     .check {
