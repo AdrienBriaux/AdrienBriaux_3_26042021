@@ -24,6 +24,7 @@
             transition      : background-color 300ms;
             transform       : background-color;
             background-color: lighten($color-primaire, 35);
+            cursor          : pointer;
 
             & i {
                 color: $color-primaire;
@@ -34,6 +35,7 @@
 
     .nav__link div {
         margin-bottom: 32px;
+
         ul {
             padding: 0;
         }
@@ -50,6 +52,7 @@
     .--box {
         @include box-menu;
         @include grid--box;
+        cursor: pointer;
     }
 
     .check {

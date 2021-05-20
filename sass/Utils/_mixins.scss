@@ -41,8 +41,9 @@
 
             transform : translateX(0);
             transition: transform 300ms linear;
+
             i {
-                transform: rotate(360deg);
+                transform : rotate(360deg);
                 transition: transform 300ms linear;
             }
         }

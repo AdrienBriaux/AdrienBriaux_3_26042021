@@ -13,13 +13,14 @@
         transform : opacity;
         transition: 300ms;
         @include heavy-box-shadow;
+        cursor: pointer;
     }
 }
 
 .btn-box {
     justify-content: center;
-    display: flex;
-    padding: 50px 0;
+    display        : flex;
+    padding        : 50px 0;
 
     .restaurant-page__btn {
         @include btn;
@@ -31,6 +32,7 @@
             transform : opacity;
             transition: 300ms;
             @include heavy-box-shadow;
+            cursor: pointer;
         }
     }
 }
