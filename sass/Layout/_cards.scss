@@ -1,6 +1,10 @@
 .restaurant-prev__card {
     @include box-shadow;
     border-radius: 20px;
+
+    .restaurant-prev__image {
+        height: 175px;
+    }
 }
 
 .restaurant-card {

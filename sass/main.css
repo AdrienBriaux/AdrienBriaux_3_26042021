@@ -273,6 +273,9 @@ input::placeholder {
   box-shadow: 5px 5px 15px 1px #d0d0d0;
   border-radius: 20px;
 }
+.restaurant-prev__card .restaurant-prev__image {
+  height: 175px;
+}
 
 .restaurant-card__box-info {
   background-color: white;
