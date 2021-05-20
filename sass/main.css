@@ -376,6 +376,10 @@ li:hover i {
   transform: translateX(0);
   transition: transform 800ms;
 }
+.--box:hover .check i {
+  transform: rotate(720deg);
+  transition: transform 800ms;
+}
 .--box:not(:hover) .check {
   transition: transform 800ms;
   transform: translateX(100%);

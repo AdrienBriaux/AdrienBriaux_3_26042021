@@ -41,6 +41,10 @@
 
             transform : translateX(0);
             transition: transform 800ms;
+            i {
+                transform: rotate(720deg);
+                transition: transform 800ms;
+            }
         }
     }
 
