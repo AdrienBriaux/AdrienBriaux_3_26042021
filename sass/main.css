@@ -201,6 +201,8 @@ a:hover #footer-icons {
   z-index: 99;
   transform: scale(0);
   transition: transform 0s 2s;
+  display: flex;
+  align-items: center;
 }
 
 .loader {
