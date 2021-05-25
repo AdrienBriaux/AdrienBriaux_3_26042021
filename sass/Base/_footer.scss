@@ -38,8 +38,12 @@ footer {
     }
 }
 
-a:hover #footer-icons {
+a:hover .footer-icons {
     transform : rotate(-45deg);
     transition: transform 200ms;
+}
 
+a:not(:hover) .footer-icons {
+    transform : rotate(0);
+    transition: transform 200ms;
 }
