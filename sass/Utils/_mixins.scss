@@ -36,26 +36,6 @@
     justify-content      : space-between;
     overflow             : hidden;
 
-    &:hover {
-        .check {
-
-            transform : translateX(0);
-            transition: transform 300ms linear;
-
-            i {
-                transform : rotate(360deg);
-                transition: transform 300ms linear;
-            }
-        }
-    }
-
-    &:not(:hover) {
-        .check {
-            transition: transform 200ms linear;
-            transform : translateX(100%);
-        }
-    }
-
     p {
         grid-area: 2;
     }

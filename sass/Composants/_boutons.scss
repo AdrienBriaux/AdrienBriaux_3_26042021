@@ -10,7 +10,6 @@
 
     &:hover {
         opacity   : 90%;
-        transform : opacity;
         transition: 300ms;
         @include heavy-box-shadow;
         cursor: pointer;
@@ -29,7 +28,6 @@
 
         &:hover {
             opacity   : 90%;
-            transform : opacity;
             transition: 300ms;
             @include heavy-box-shadow;
             cursor: pointer;

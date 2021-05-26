@@ -22,7 +22,6 @@
 
         &:hover {
             transition      : background-color 300ms;
-            transform       : background-color;
             background-color: lighten($color-primaire, 35);
             cursor          : pointer;
 
@@ -49,11 +48,31 @@
         }
     }
 
-    .--box {
+    .box {
         @include box-menu;
         @include grid--box;
-        cursor: pointer;
-        animation:  menu-animation 2s;
+        cursor   : pointer;
+        animation: menu-animation 2s;
+
+        &:hover {
+            .check {
+
+                transform : translateX(0);
+                transition: transform 300ms linear;
+
+                i {
+                    transform : rotate(360deg);
+                    transition: transform 300ms linear;
+                }
+            }
+        }
+
+        &:not(:hover) {
+            .check {
+                transition: transform 200ms linear;
+                transform : translateX(100%);
+            }
+        }
     }
 
     .check {
@@ -61,7 +80,7 @@
     }
 
     .restaurant-page {
-        &__la_note_enchantée {
+        &__la_note_enchantee {
             .restaurant-card {
                 background     : url(https://raw.githubusercontent.com/AdrienBriaux/AdrienBriaux_3_26042021/master/images/restaurants/mini/La_note_enchant%C3%A9e_mini.jpg) no-repeat;
                 height         : 290px;
@@ -82,7 +101,7 @@
 
         }
 
-        &__à_la_française {
+        &__a_la_francaise {
             .restaurant-card {
                 background     : url(https://raw.githubusercontent.com/AdrienBriaux/AdrienBriaux_3_26042021/master/images/restaurants/mini/%C3%A0_la_fran%C3%A7aise_mini.jpg) no-repeat;
                 height         : 290px;
@@ -92,7 +111,7 @@
             }
         }
 
-        &__le_délice_des_sens {
+        &__le_delice_des_sens {
             .restaurant-card {
                 background     : url(https://raw.githubusercontent.com/AdrienBriaux/AdrienBriaux_3_26042021/master/images/restaurants/mini/Le_d%C3%A9lice_des_sens_mini.jpg) no-repeat;
                 height         : 290px;
