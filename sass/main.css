@@ -334,7 +334,6 @@ a:not(:hover) .footer-icons {
 }
 .btn-box .restaurant-page__btn:hover {
   opacity: 90%;
-  transform: opacity;
   transition: 300ms;
   box-shadow: 0px 0px 10px 10px #d0d0d0;
   cursor: pointer;
