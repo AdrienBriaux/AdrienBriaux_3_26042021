@@ -48,7 +48,7 @@
         }
     }
 
-    .--box {
+    .box {
         @include box-menu;
         @include grid--box;
         cursor   : pointer;
