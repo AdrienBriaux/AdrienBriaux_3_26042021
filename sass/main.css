@@ -512,7 +512,7 @@ li:hover i {
   font-size: 20px;
 }
 
-.restaurant-page__la_note_enchantée .restaurant-card {
+.restaurant-page__la_note_enchantee .restaurant-card {
   background: url(https://raw.githubusercontent.com/AdrienBriaux/AdrienBriaux_3_26042021/master/images/restaurants/mini/La_note_enchant%C3%A9e_mini.jpg) no-repeat;
   height: 290px;
   display: flex;
@@ -526,14 +526,14 @@ li:hover i {
   flex-direction: column-reverse;
   background-size: cover;
 }
-.restaurant-page__à_la_française .restaurant-card {
+.restaurant-page__a_la_française .restaurant-card {
   background: url(https://raw.githubusercontent.com/AdrienBriaux/AdrienBriaux_3_26042021/master/images/restaurants/mini/%C3%A0_la_fran%C3%A7aise_mini.jpg) no-repeat;
   height: 290px;
   display: flex;
   flex-direction: column-reverse;
   background-size: cover;
 }
-.restaurant-page__le_délice_des_sens .restaurant-card {
+.restaurant-page__le_delice_des_sens .restaurant-card {
   background: url(https://raw.githubusercontent.com/AdrienBriaux/AdrienBriaux_3_26042021/master/images/restaurants/mini/Le_d%C3%A9lice_des_sens_mini.jpg) no-repeat;
   height: 290px;
   display: flex;
