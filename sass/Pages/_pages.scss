@@ -22,7 +22,6 @@
 
         &:hover {
             transition      : background-color 300ms;
-            transform       : background-color;
             background-color: lighten($color-primaire, 35);
             cursor          : pointer;
 

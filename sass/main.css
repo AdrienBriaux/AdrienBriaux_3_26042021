@@ -176,7 +176,7 @@ footer {
   font-size: 16px;
   font-weight: 500;
 }
-.footer-links .footer-links__link.--slim-font {
+.footer-links .footer-links__link--slim-font {
   font-weight: 300;
 }
 .footer-links .footer-links__link i {
@@ -309,7 +309,6 @@ a:not(:hover) .footer-icons {
 }
 .explore__btn:hover {
   opacity: 90%;
-  transform: opacity;
   transition: 300ms;
   box-shadow: 0px 0px 10px 10px #d0d0d0;
   cursor: pointer;
@@ -429,7 +428,6 @@ li .nav-number {
 }
 li:hover {
   transition: background-color 300ms;
-  transform: background-color;
   background-color: #f2eafb;
   cursor: pointer;
 }
